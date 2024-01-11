@@ -71,7 +71,7 @@ ANIDB_RESOURCES_MARUMEGANE                  = "http://www.anime.marumegane.com/%
 ANIDB_RESOURCES_HOMEAKI                     = "http://home-aki.cool.ne.jp/anime-list/%s.htm"
 
 MINIMUM_WEIGHT                              = Prefs["MinimumWeight"]
-SERIES_TYPE_PRIORITY                        = ["main", "official", "syn", "synonym", "short"]
+SERIES_TYPE_PRIORITY                        = ["official", "main", "syn", "synonym", "short"]
 ANIDB_THROTTLE_THRESHOLD                    = 100
 ANIDB_ANTIBAN_WAIT                          = int(Prefs["AniDbAntiBanDelay"]) if int(Prefs["AniDbAntiBanDelay"]) > 2 else 2
 ANIDB_BADTITLES                             = ["^TV Special$", "^Part . of .$", "^Episode [S]?.$", "^Special [S]?.$", "Complete Movie"]
